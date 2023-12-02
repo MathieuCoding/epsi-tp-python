@@ -18,41 +18,41 @@ from pprint import pprint
 # print(magreb)
 
 # Exo 3
-# etudiants = {
-# "etudiant_1":13,
-# "etudiant_2":17,
-# "etudiant_3":9,
-# "etudiant_4":15,
-# "etudiant_5":8,
-# "etudiant_6":14,
-# "etudiant_7":14,
-# "etudiant_8":12,
-# "etudiant_9":13,
-# "etudiant_10":15,
-# "etudiant_11":14,
-# "etudiant_112":9,
-# "etudiant_13":12,
-# "etudiant_14":12,
-# "etudiant_15":13,
-# "etudiant_16":7,
-# "etudiant_17":12,
-# "etudiant_18":15,
-# "etudiant_19":9,
-# "etudiant_20":17
-# }
-#
-# etudiants['etudiant_21'] = 18
-# admis = {}
-# non_admis = {}
-#
-# for i in etudiants:
-#     if etudiants[i] >= 10:
-#         admis[i] = etudiants[i]
-#     else:
-#         non_admis[i] = etudiants[i]
-#
-# etudiants = {'admis': admis, 'non_admis': non_admis}
-# pprint(etudiants)
+etudiants = {
+"etudiant_1":13,
+"etudiant_2":17,
+"etudiant_3":9,
+"etudiant_4":15,
+"etudiant_5":8,
+"etudiant_6":14,
+"etudiant_7":14,
+"etudiant_8":12,
+"etudiant_9":13,
+"etudiant_10":15,
+"etudiant_11":14,
+"etudiant_112":9,
+"etudiant_13":12,
+"etudiant_14":12,
+"etudiant_15":13,
+"etudiant_16":7,
+"etudiant_17":12,
+"etudiant_18":15,
+"etudiant_19":9,
+"etudiant_20":17
+}
+
+etudiants['etudiant_21'] = 18
+admis = {}
+non_admis = {}
+
+for i in etudiants:
+    if etudiants[i] >= 10:
+        admis[i] = etudiants[i]
+    else:
+        non_admis[i] = etudiants[i]
+
+etudiants = {'admis': admis, 'non_admis': non_admis}
+pprint(etudiants)
 
 # Exo 4
 # d = {
@@ -83,11 +83,11 @@ from pprint import pprint
 # print(sum(mark)/len(mark))
 
 # Exo 7
-def multiplication_table(number):
-    for i in range(1, number + 1):
-        for j in range(1, number + 1):
-            print(i*j, end=" ")
-        print()
-
-multiplication_table(int(input("Enter a number: ")))
+# def multiplication_table(number):
+#     for i in range(1, number + 1):
+#         for j in range(1, number + 1):
+#             print(i*j, end=" ")
+#         print()
+#
+# multiplication_table(int(input("Enter a number: ")))
 
