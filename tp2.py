@@ -67,13 +67,13 @@ from pprint import pprint
 # print(d)
 
 # Exo 5
-def factoriel(number):
-    if number == 0:
-        return 1
-    else:
-        return number * factoriel(number-1)
-
-print(factoriel(int(input("Enter a number: "))))
+# def factoriel(number):
+#     if number == 0:
+#         return 1
+#     else:
+#         return number * factoriel(number-1)
+#
+# print(factoriel(int(input("Enter a number: "))))
 
 # Exo 6
 # number_marks = int(input("Enter the number of marks: "))
@@ -83,11 +83,11 @@ print(factoriel(int(input("Enter a number: "))))
 # print(sum(mark)/len(mark))
 
 # Exo 7
-# def multiplication_table(number):
-#     for i in range(1, number + 1):
-#         for j in range(1, number + 1):
-#             print(i*j, end=" ")
-#         print()
-#
-# multiplication_table(int(input("Enter a number: ")))
+def multiplication_table(number):
+    for i in range(1, number + 1):
+        for j in range(1, number + 1):
+            print(i*j, end=" ")
+        print()
+
+multiplication_table(int(input("Enter a number: ")))
 
