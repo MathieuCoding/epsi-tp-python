@@ -1,8 +1,8 @@
 # Exo 1
-def nb_figures_square(number):
-    return len(str(number ** 2))
-
-print(nb_figures_square(int(input("Enter a number: "))))
+# def nb_figures_square(number):
+#     return len(str(number ** 2))
+#
+# print(nb_figures_square(int(input("Enter a number: "))))
 
 # Exo 2
 # def is_prime(number):
@@ -35,9 +35,9 @@ class Date:
 
 def add_date():
     date = Date()
-    re_year = "\d{4}"
-    re_month = "\d{2}"
-    re_day = "\d{1,2}"
+    re_year = "^\d{4}$"
+    re_month = "^\d{2}$"
+    re_day = "^\d{1,2}$"
 
     year = input("Enter a year: ")
     month = input("Enter a month: ")
@@ -52,7 +52,7 @@ def add_date():
     date.to_string()
     return date
 
-# add_date()
+add_date()
 
 
 class Person:
