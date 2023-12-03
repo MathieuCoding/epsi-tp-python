@@ -1,8 +1,8 @@
 # Exo 1
-# def nb_figures_square(number):
-#     return len(str(number ** 2))
-#
-# print(nb_figures_square(int(input("Enter a number: "))))
+def nb_figures_square(number):
+    return len(str(number ** 2))
+
+print(nb_figures_square(int(input("Enter a number: "))))
 
 # Exo 2
 # def is_prime(number):
