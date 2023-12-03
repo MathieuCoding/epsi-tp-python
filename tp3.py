@@ -93,5 +93,5 @@ def compare_seniority(person1, person2):
     if is_more_recent_than(person1.start_date, person2.start_date):
         print(" is more senior than ")
     else:
-        print(" is more senior than ")
+        print(" is not more senior than ")
     person2.to_string()
